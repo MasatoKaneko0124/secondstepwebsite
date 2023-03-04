@@ -1,0 +1,214 @@
+@charset "utf-8";
+/* CSS Document */
+.section-top {
+  margin-top: 80px;
+  height: 250px;
+  background-image: url("../images/about/about_page_visual.jpg");
+  background-position: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.section-top__area {
+  height: 250px;
+  background-color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-top__box {
+  width: 210px;
+  height: 90px;
+  border: solid 1px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-top h1 {
+  margin-bottom: 5px;
+  font-family: "Catamaran";
+  font-weight: 600;
+  font-size: 3.0rem;
+}
+.section-top p {
+  font-size: 1.2rem;
+}
+@media(min-width:1040px) {
+  .section-top, .section-top__area {
+    height: 500px;
+  }
+  .section-top__box {
+    width: 390px;
+    height: 160px;
+    border: solid 1px;
+    border-radius: 20px;
+  }
+  .section-top h1 {
+    margin-bottom: 23px;
+    font-size: 5.0rem;
+  }
+  .section-top p {
+    font-size: 2.0rem;
+  }
+}
+.section-Profile {
+  margin: 0 24px;
+  padding: 80px 0;
+  max-width: 1040px;
+}
+.section-Profile h2 {
+  margin-bottom: 60px;
+  font-family: "Catamaran";
+  font-weight: 600;
+  font-size: 3.0rem;
+}
+.section-Profile ul {
+  list-style: none;
+}
+.section-Profile ul li {
+  margin: 0 auto;
+  padding: 35px 0;
+  max-width: 650px;
+  width: 100%;
+  border-top: solid 1px #6b6b6b;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.section-Profile ul li:last-child {
+  border-bottom: solid 1px #6b6b6b;
+}
+.section-Profile ul li span {
+  padding: 0 20px;
+  width: 100px;
+  box-sizing: border-box;
+}
+.section-Profile ul li p {
+  width: calc(100% - 100px);
+  text-align: left;
+}
+@media(min-width:650px) {
+  .section-Profile ul li span {
+    padding: 0 100px 0 50px;
+    width: 210px;
+  }
+  .section-Profile ul li p {
+    width: calc(100% - 210px);
+  }
+}
+@media(min-width:1040px) {
+  .section-Profile {
+    margin: 0 auto;
+    padding: 100px 0;
+  }
+  .section-Profile h2 {
+    margin-bottom: 80px;
+    font-size: 4.0rem;
+  }
+  .section-Profile ul li {
+    padding: 40px 0;
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+  }
+}
+.section-message {
+  margin: 0 0 80px;
+  background-color: #f7f7f8;
+}
+.section-message__area {
+  margin: 0 24px;
+  padding: 40px 0 50px;
+  max-width: 1040px;
+}
+.section-message h2 {
+  margin-bottom: 60px;
+  font-family: "Catamaran";
+  font-weight: 600;
+  font-size: 3.0rem;
+}
+.section-message__description {
+  margin-bottom: 60px;
+}
+.section-message__title {
+  display: none;
+}
+.section-message__description p {
+  margin-bottom: 40px;
+  font-size: 1.6rem;
+  line-height: 3.0rem;
+  text-align: left;
+}
+.section-message__description span{
+  display: inline-block;
+}
+.section-message__Profile {
+  margin: 0 auto;
+  padding: 50px 24px 20px;
+  max-width: 700px;
+  border-radius: 30px;
+  background-color: #ececec;
+  text-align: left;
+}
+.section-message__Profile h3 {
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+  line-height: 3.6rem;
+}
+.section-message__Profile p {
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+}
+.section-message__Profile__txt {
+  padding-left: 15px;
+  display: inline-block;
+}
+@media(min-width:1040px) {
+  .section-message {
+    position: relative;
+    margin-bottom: 150px;
+  }
+  .section-message__title {
+    display: block;
+    position: absolute;
+    top: 43.5%;
+    right: 0;
+    font-family: "Catamaran";
+    font-weight: 500;
+    font-size: 25.0rem;
+    color: #ececec;
+    text-align: right;
+  }
+  .section-message__area {
+    margin: 0 auto;
+    padding: 50px 0 125px;
+  }
+  .section-message h2 {
+    margin-bottom: 80px;
+    font-size: 4.0rem;
+  }
+  .section-message__description {
+    margin-bottom: 125px;
+  }
+  .section-message__description p {
+    position: relative;
+    margin-bottom: 60px;
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+  }
+  .section-message__Profile {
+    padding: 50px 40px 20px;
+  }
+  .section-message__Profile p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+  .section-message__Profile__year{
+    display: inline-block;
+    width: 125px;
+    white-space: nowrap;
+  }
+  .section-message__Profile__txt {
+    padding-left: 32px;
+  }
+}

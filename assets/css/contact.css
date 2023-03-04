@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+.section-top {
+  margin-top: 80px;
+  height: 250px;
+  background-image: url("../images/contact/contact_page_visual.jpg");
+  background-position: 50% 5%;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.section-top__area {
+  height: 250px;
+  background-color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-top__box {
+  width: 210px;
+  height: 90px;
+  border: solid 1px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-top h1 {
+  margin-bottom: 5px;
+  font-family: "Catamaran";
+  font-weight: 600;
+  font-size: 3.0rem;
+}
+.section-top p {
+  font-size: 1.2rem;
+}
+@media(min-width:1040px) {
+  .section-top, .section-top__area {
+    height: 500px;
+  }
+  .section-top__box {
+    width: 390px;
+    height: 160px;
+    border: solid 1px;
+    border-radius: 20px;
+  }
+  .section-top h1 {
+    margin-bottom: 23px;
+    font-size: 5.0rem;
+  }
+  .section-top p {
+    font-size: 2.0rem;
+  }
+}
+.contact-area {
+  margin: 0 24px;
+  padding: 50px 0 150px;
+  max-width: 1040px;
+}
+.contact-area_box {
+  margin: 0 auto 70px;
+  max-width: 650px;
+}
+.contact-area p {
+  margin-bottom: 35px;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-align: left;
+}
+.contact-area__form {
+  margin: 0 auto;
+  max-width: 500px;
+  text-align: left;
+}
+.contact-area__form p {
+  margin-bottom: 30px;
+}
+.contact-area__form input {
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: solid 1px #6b6b6b;
+}
+.contact-area__form textarea {
+  margin-top: 20px;
+  width: 100%;
+  height: 400px;
+  border-radius: 5px;
+  border: solid 1px #6b6b6b;
+}
+.contact-area__form-submit {
+  margin-top: 70px;
+  text-align: center;
+}
+.contact-area__form-submit button {
+  max-width: 300px;
+  width: 100%;
+  height: 60px;
+  border: none;
+  background-color: #333;
+  border-radius: 30px;
+  font-size: 1.6rem;
+  color: #FFF;
+  box-shadow: 3px 3px 5px 0 rgb(0 0 0 / 30%);
+}
+@media(min-width:1040px) {
+  .contact-area {
+    margin: 0 auto;
+    padding: 100px 0 150px;
+  }
+  .contact-area_box {
+    max-width: 780px;
+  }
+  .contact-area p {
+    margin-bottom: 40px;
+    font-size: 2.0rem;
+    line-height: 3.0rem;
+  }
+  .contact-area__form p {
+    margin-bottom: 50px;
+    font-size: 1.8rem;
+  }
+  .contact-area__form input {
+    height: 60px;
+  }
+  .contact-area__form-submit {
+    margin-top: 80px;
+  }
+  .contact-area__form-submit button {
+    font-size: 1.8rem;
+  }
+}
