@@ -58,30 +58,31 @@
           なお、ご返答に少々お時間をいただく場合がございます。<br>
           予めご了承の程、よろしくお願いいたします。</p>
       </div>
-      <form class="contact-area__form" action="https://hyperform.jp/api/1ygNVKKd" method="post">
+      <!--<form class="contact-area__form" action="https://hyperform.jp/api/1ygNVKKd" method="post">-->
+      <form class="contact-area__form" action="https://hyperform.jp/api/URdSh26d" method="post">
         <p>
-          <label for="form_name">ご氏名</label>
+          <label for="form_name">ご氏名<span>*</span></label>
           <br>
           <input name="ご氏名" id="form_name" type="text" placeholder="">
         </p>
         <p>
-          <label for="form_email">メールアドレス</label>
+          <label for="form_email">メールアドレス<span>*</span></label>
           <br>
           <!--ユーザーへ自動返信する場合は、「name="email"」にする必要あり-->
           <input name="email" id="form_email" type="email" placeholder="">
         </p>
         <p>
-          <label for="form_title">件名</label>
+          <label for="form_title">件名<span>*</span></label>
           <br>
           <input name="件名" id="form_title" type="text" placeholder="">
         </p>
         <p>
-          <label for="form_message">お問い合わせ内容</label>
+          <label for="form_message">お問い合わせ内容<span>*</span></label>
           <br>
           <textarea name="お問い合わせ内容" id="form_message" placeholder=""></textarea>
         </p>
         <div class="contact-area__form-submit">
-          <button type="submit">送信する</button>
+          <button type="submit" id="submit_btn">送信する</button>
         </div>
       </form>
     </div>
@@ -113,7 +114,8 @@
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script> 
-  <script src="../assets/js/common.js"></script> 
+  <script src="../assets/js/common.js"></script>
+  <script src="../assets/js/contact.js"></script>
 </div>
 </body>
 </html>
