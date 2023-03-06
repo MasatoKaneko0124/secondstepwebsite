@@ -74,6 +74,10 @@
 .contact-area__form p {
   margin-bottom: 30px;
 }
+.contact-area__form p span{
+  padding-left: 3px;
+  color: red;
+}
 .contact-area__form input {
   margin-top: 20px;
   width: 100%;
